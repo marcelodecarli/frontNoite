@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "https://backendapi-1-vhyb.onrender.com/"; // substituir pela URL da api do render AULA 22/05
+const API_URL = "https://backendapi-1-vhyb.onrender.com"; // substituir pela URL da api do render AULA 22/05
 
 export default function App() {
   const [produtos, setProdutos] = useState([]);
